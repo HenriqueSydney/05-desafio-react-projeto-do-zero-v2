@@ -1,1 +1,57 @@
-// TODO
+.container {
+    margin-top: 5rem;
+}
+  
+.posts {
+    max-width: 700px;
+    margin: 5rem auto 0;
+
+    a {
+        display:block;
+
+        & + a {
+            margin-top: 3rem;
+            border-top: 1px solid var(--gray-700);
+        }
+
+        strong {
+            display: block;
+            color: var(--gray-100);
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-top: 1rem;
+            line-height: 2rem;
+            text-align: justify;
+    
+            transition: color 0.2s
+        }
+    
+        p{
+            color: var(--gray-300);
+            margin-top: 0.5rem;
+            font-size: 1.125rem;
+            line-height: 1.32rem;
+            text-align: justify;
+        }
+    
+        &:hover strong {
+            color: var(--pink-500)
+        }
+    }
+
+    .loadMore {
+        margin-top: 4rem;
+        color: var(--pink-500);
+        font-size: 1.125rem;
+        font-weight: 600;
+        line-height: 1.361rem;
+        background: transparent;
+        border: 0px;
+
+        transition: filter 0.2s;
+
+        &:hover {
+            filter: opacity(0.6) 
+        }
+    }   
+}

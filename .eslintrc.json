@@ -31,6 +31,8 @@
     "prettier"
   ],
   "rules": {
+    "no-alert":"off",
+    "@typescript-eslint/no-explicit-any": "off",
     "camelcase": "off",
     "import/no-duplicates": "off",
     "react/jsx-props-no-spreading": "off",
@@ -57,6 +59,7 @@
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/require-default-props": "off",
+    "react/no-danger": "off",
     "react/jsx-filename-extension": [
       1,
       {

@@ -1,1 +1,52 @@
-// TODO
+.banner {
+    max-height: 400px;
+    width: 100%;
+}
+
+.container {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 3.63rem;
+    }
+    
+   
+}
+
+.content {
+    margin-top: 4rem;
+
+    .postGroup + .postGroup {
+            margin-top: 4rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 2rem;               
+        margin-bottom: 2.5rem; 
+    }
+
+    p {
+        margin: 1.5rem 0;
+    }
+
+    ul {
+        padding-left: 1.5rem;
+
+        li {
+            margin: 0.5rem 0;
+        }
+    }
+
+    pre {
+        background-color: var(--gray-700);
+        overflow: auto;
+        font-family: 'Monaco', monospace;
+        padding: 0 1em;
+        border-radius: 5px;
+    }
+    
+}
